@@ -48,3 +48,10 @@ puts non_multiples_of_three
 numbers = [1, 2, 3, 4, 5, 6]
 even_number = numbers.find { |n| n.even? }
 puts even_number
+
+numbers =  [1, 2, 3, 4]
+sum = numbers.inject(0) { |result, n| result + n }
+puts sum
+
+a = [1, 2, 3, 4, 5, 6]
+puts a[1..6]
